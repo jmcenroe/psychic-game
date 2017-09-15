@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Psychic Game Pseudocode</title>
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="jumbotron">
+				<h1 class="text-center"><strong>Psychic Game Pseudocode</strong></h1>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+					  <div class="panel-body">
+						  <h3>1. User chooses any letter on keyboard.</h3>
+						  <h3>2. Computer chooses a random value in a list of whole alphabet.</h3>
+						  <h3>3. We determine if the user wins or not.</h3> 
+						  <ul>
+						  	<li><h4>If user picks the same letter computer randomly picks then user wins and game starts over.</h4></li>
+						  	<li><h4>If user picks a different letter than the one the computer randomly picks then user attempts to guess the letter the computer picks.</h4></li>
+						  	<li><h4>After 10 total incorrect picks, the user loses and the game starts over.</h4></li>
+						  </ul>
+						  <h3>4. We then add to their score.</h3>
+						  	<ul>
+						  		<li>
+						  			<h4>If user wins then we add one to their Wins, reset Guesses Left to 10 and clear Your Guesses So Far.</h4>
+						  		</li>
+						  		<li>
+						  			<h4>If user loses then add the letter guessed to Your Guesses So Far, subtract 1 from Guesses Left.</h4>
+						  	</ul>
+						  <h3>5. The user then presses r, p, or s to play again.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
