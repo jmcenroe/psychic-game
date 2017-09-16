@@ -5,9 +5,32 @@
 }
 
 body {
-	background-image: url('assets/css/psychic.jpg');
+	background-image:url('../images/psychic2.jpg');
+	background-repeat: no-repeat;
 }
 
-#let-guessed {
-	float: left;
+.container {
+	width: 500px;
+	margin: 130px 290px;
+}
+
+h1 {
+	background: #000000;
+	color: #FFD700;
+	font-family: 'Ewert', cursive;
+	font-weight: 700;
+	font-size: 38px;
+	width: 378px;
+	margin-left: 30px;
+    margin-bottom: 10px;
+	padding: 30px;
+}
+
+h2 {
+	font-family: 'Sancreek', cursive;
+}
+
+#game {
+	line-height: 1.7;
+	margin-left: 95px;
 }

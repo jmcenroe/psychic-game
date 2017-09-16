@@ -1,34 +1,28 @@
-<!Doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psychic Game</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <title>The Psychic Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Sancreek" rel="stylesheet">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 <body>
 
-    <h1>The Psychic Game</h1><br>
+    <div class="container">
 
-    <h2>Guess what letter I'm thinking of</h2>
+        <h1>Psychic Game</h1>
 
-    <div class="wins"></div>
-        <h3>Wins: <div id="guess"></div></h3>
-
-    <div class="" ="losses"></div>
-        <h3>Losses: <div id="guess"></div></h3>
-    
-    <div class="guesses-left"></div>
-        <h3>Guesses Left: <div id="guess"></div></h3>
-
-        <div id="guess"></div>
-        <h3>Your Guesses So Far: <div class="let-guessed"></div></h3>
-    
+        <div id="game">
+            <h2>Guess what letter I'm thinking of</h2>
+            <h2>Wins: 0</h2>
+            <h2>Losses: 0</h2>
+            <h2>Guesses Left: 9</h2>
+            <h2>Your guesses so far: </h2>
+        </div>
+    </div>
 </body>
 
 </html>
