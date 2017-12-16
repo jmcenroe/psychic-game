@@ -22,3 +22,6 @@ Each time you guess a letter correctly, your win count increases by one, and the
 If you fail to guess the correct letter in 9 chances, your losses count increases by one.
 
 Each time you win or lose, the game will restart without reloading the page.
+
+Try it out:
+https://jmcenroe.github.io/psychic-game/
