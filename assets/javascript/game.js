@@ -49,10 +49,7 @@ var guessCount = 9;
 var letterGuessed = [];
 var setCompPick = ""; 
 
-    // When the user presses a key, it records the keypress and then sets it to userguess 
-    document.onkeyup = function(event) {
-        var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
-
+   
         // Sets the letter the computer picks at the beginning of the game
         if (guessCount == 9) {
             var computerPick = computerChoices[Math.floor(Math.random() * computerChoices.length)];
@@ -60,6 +57,10 @@ var setCompPick = "";
         }
 
         console.log(computerPick);
+
+    // When the user presses a key, it records the keypress and then sets it to userguess 
+    document.onkeyup = function(event) {
+        var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
         // If the key user chooses is not in guessTally array, run game
         var userCheck = letterGuessed.indexOf(userGuess);
