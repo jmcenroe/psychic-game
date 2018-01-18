@@ -5,8 +5,6 @@
 ## About
 This game was built with regular JavaScript.
 
-It's hosted online. It can be played on the browser [here](https://ulaura.github.io/Psychic-Game/).
-
 **NOTE:** This game can only be played with a desktop or a laptop. Mobile use is currently unavailable. 
 
 ## Instructions
